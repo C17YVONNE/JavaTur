@@ -6,9 +6,14 @@ package com.lemicode;
  */
 public class JAVA14 {
 	public static void main(String[] args) {
+		int n = 10;
 		long sum = 0;
-		for (long i = 9; i <= 9999999999; i = i*10 + 9) {
-			sum = sum + i;
+		
+		long term = 9;
+		for (int i = 1; i <= n; i++) {
+			sum += term;
+			term = term*10 + 9;
+			
 		}
 		System.out.println(sum);
 	}
