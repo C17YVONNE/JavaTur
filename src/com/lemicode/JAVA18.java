@@ -1,5 +1,8 @@
 package com.lemicode;
-
+/**
+ * 与えられた整数が素数であるかどうかを判断するプログラムを書いてください
+ * 素数は1より大きく、1とその数自身以外には約数を持たない正の整数です
+ */
 import java.util.Scanner;
 
 public class JAVA18 {
