@@ -2,7 +2,7 @@ package com.lemicode;
 
 public class Zoo {
 
-	private static final int MAX_ANIMALS = 10;
+	private static final int MAX_ANIMALS = 2;
 	private Animal [] animals;
 	private int count;
 	

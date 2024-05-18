@@ -20,7 +20,7 @@ public class Animal {
 	public void setSpecies(String species) {
 		this.species = species;
 	}
-	
+		
 	public int getAge() {
 		return age;
 	}
