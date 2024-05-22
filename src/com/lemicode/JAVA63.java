@@ -5,12 +5,13 @@ package com.lemicode;
 public class JAVA63 {
 	public static void main(String[] args) {
 		//メールアドレスの文字列
-		String emailAddress = "tanaka, @, example.com";
+		String emailAddress = "tanaka@example.com";
 		
-		//メールアドレスを分割
-		String[] parts = emailAddress.split(", ");
+		// '@' の位置を見つける
+		int atIndex = emailAddress.indexOf("@");
 		
-		//ドメイン名を出力
-		System.out.println(parts[2]);
+		//ドメイン名を抽出
+		String domain = emailAddress.substring(atIndex + 1);
+		System.out.println("ドメイン名: " + domain);
 	}
 }
